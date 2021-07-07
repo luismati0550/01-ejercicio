@@ -18,6 +18,28 @@ namespace ConsoleApp2
                 Console.Clear();
                 Console.WriteLine(" \n1. Ingresar valores \n2. Mostrar valores \n3. Buscar valores");
                 l = int.Parse(Console.ReadLine());
+                if (l == 1)
+                {
+                    for (int i = 0; i <= 9; i++)
+                    {
+                        Console.WriteLine("i: " + i);
+                        Console.Write("Ingrese una letra:  ");
+                        dato[i] = char.Parse(Console.ReadLine());
+                    }
+                }
+                if (l == 2)
+                {
+                    for (int x = 0; x <= 9; x++)
+                    {
+                        Console.WriteLine(dato[x]);
+                    }
+                    Console.ReadLine();
+                }
+                if (l == 3)
+                {
+                    Console.Write("Ingrese caracter a buscar: ");
+                    b = char.Parse(Console.ReadLine());
+
 
 
 
