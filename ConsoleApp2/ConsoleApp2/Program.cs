@@ -39,7 +39,9 @@ namespace ConsoleApp2
                 {
                     Console.Write("Ingrese caracter a buscar: ");
                     b = char.Parse(Console.ReadLine());
-for (int x = 0; x <= 9; x++)
+
+                    
+                    for (int x = 0; x <= 9; x++)
                     {
                         if (dato[x] == b)
                         {
@@ -47,25 +49,6 @@ for (int x = 0; x <= 9; x++)
                         }
                     }
                 }
-                Console.ReadKey();
-            }
-        }
-    }
-}
-
-
-
-
-                if (l == 1)
-                {
-                    for (int i = 0; i <= 9; i++)
-                    {
-                        Console.WriteLine("i: " + i);
-                        Console.Write("Ingrese una letra:  ");
-                        dato[i] = char.Parse(Console.ReadLine());
-                    }
-                }
-                
                 Console.ReadKey();
             }
         }
